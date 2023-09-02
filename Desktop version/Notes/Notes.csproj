@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36C36FB0-C93F-4964-9EF4-1FF1F4FAED58}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Notes</RootNamespace>
+    <AssemblyName>Notes</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\Commands.cs" />
+    <Compile Include="Config\MySql_Connection.cs" />
+    <Compile Include="Entities\Admin.cs" />
+    <Compile Include="Entities\Classe.cs" />
+    <Compile Include="Entities\Devoir.cs" />
+    <Compile Include="Entities\Employe.cs" />
+    <Compile Include="Entities\Etudiant.cs" />
+    <Compile Include="Entities\Filiere.cs" />
+    <Compile Include="Entities\Login.cs" />
+    <Compile Include="Entities\Module.cs" />
+    <Compile Include="Entities\Note.cs" />
+    <Compile Include="Entities\Semestre.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="GUI\forms\admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\forms\admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\forms\employe.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="GUI\forms\employe.Designer.cs">
+      <DependentUpon>employe.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="GUI\forms\etudiant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\forms\etudiant.Designer.cs">
+      <DependentUpon>etudiant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\forms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_about_us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_about_us.Designer.cs">
+      <DependentUpon>sub_about_us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_admin.Designer.cs">
+      <DependentUpon>sub_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_classe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_classe.Designer.cs">
+      <DependentUpon>sub_classe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_devoir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_devoir.Designer.cs">
+      <DependentUpon>sub_devoir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_employe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_employe.Designer.cs">
+      <DependentUpon>sub_employe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_etudiant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_etudiant.Designer.cs">
+      <DependentUpon>sub_etudiant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_filiere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_filiere.Designer.cs">
+      <DependentUpon>sub_filiere.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_list_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_list_admin.Designer.cs">
+      <DependentUpon>sub_list_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_list_employe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_list_employe.Designer.cs">
+      <DependentUpon>sub_list_employe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_list_etudiant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_list_etudiant.Designer.cs">
+      <DependentUpon>sub_list_etudiant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_module.Designer.cs">
+      <DependentUpon>sub_module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_note.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_note.Designer.cs">
+      <DependentUpon>sub_note.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_semestre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sub_forms\sub_semestre.Designer.cs">
+      <DependentUpon>sub_semestre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\forms\admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\forms\employe.resx">
+      <DependentUpon>employe.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\forms\etudiant.resx">
+      <DependentUpon>etudiant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\forms\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\sub_forms\sub_about_us.resx">
+      <DependentUpon>sub_about_us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\sub_forms\sub_admin.resx">
+      <DependentUpon>sub_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\sub_forms\sub_classe.resx">
+      <DependentUpon>sub_classe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\sub_forms\sub_devoir.resx">
+      <DependentUpon>sub_devoir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\sub_forms\sub_employe.resx">
+      <DependentUpon>sub_employe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\sub_forms\sub_etudiant.resx">
+      <DependentUpon>sub_etudiant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\sub_forms\sub_filiere.resx">
+      <DependentUpon>sub_filiere.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\sub_forms\sub_list_admin.resx">
+      <DependentUpon>sub_list_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\sub_forms\sub_list_employe.resx">
+      <DependentUpon>sub_list_employe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\sub_forms\sub_list_etudiant.resx">
+      <DependentUpon>sub_list_etudiant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\sub_forms\sub_module.resx">
+      <DependentUpon>sub_module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\sub_forms\sub_note.resx">
+      <DependentUpon>sub_note.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\sub_forms\sub_semestre.resx">
+      <DependentUpon>sub_semestre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manouba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1_clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quote.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

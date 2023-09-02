@@ -1,0 +1,96 @@
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\GUI\forms\employe.resx
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\GUI\forms\employe.cs
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\GUI\forms\employe.Designer.cs
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\Notes.exe.config
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\Notes.exe
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\Notes.pdb
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\MySql.Data.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\MySql.Web.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\Google.Protobuf.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\Zstandard.Net.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\Renci.SshNet.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\System.Buffers.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\System.Memory.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\MySql.Data.xml
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Asus\Desktop\Projet\Notes\Notes\bin\Debug\MySql.Web.xml
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.exe.config
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.forms.admin.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.forms.employe.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.forms.etudiant.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.forms.LoginForm.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_about_us.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_admin.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_classe.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_devoir.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_employe.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_etudiant.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_filiere.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_list_admin.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_list_employe.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_list_etudiant.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_module.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_note.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_semestre.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.Properties.Resources.resources
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.csproj.CopyComplete
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.exe
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.pdb
+C:\Users\Asus\Desktop\Projet\Notes\Notes\obj\Debug\Notes.csprojAssemblyReference.cache
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\GUI\forms\employe.resx
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\GUI\forms\employe.cs
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\GUI\forms\employe.Designer.cs
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\Notes.exe.config
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\Notes.exe
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\Notes.pdb
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\Google.Protobuf.dll
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\Zstandard.Net.dll
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\BouncyCastle.Crypto.dll
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\Ubiety.Dns.Core.dll
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\Renci.SshNet.dll
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\System.Buffers.dll
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\K4os.Compression.LZ4.dll
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\K4os.Hash.xxHash.dll
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\System.Memory.dll
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\System.Numerics.Vectors.dll
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\MySql.Data.xml
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\MySql.Data.EntityFramework.xml
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\bin\Debug\MySql.Web.xml
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.csproj.AssemblyReference.cache
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.csproj.SuggestedBindingRedirects.cache
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.exe.config
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.forms.admin.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.forms.employe.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.forms.etudiant.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.forms.LoginForm.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_about_us.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_admin.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_classe.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_devoir.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_employe.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_etudiant.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_filiere.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_list_admin.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_list_employe.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_list_etudiant.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_module.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_note.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.GUI.sub_forms.sub_semestre.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.Properties.Resources.resources
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.csproj.GenerateResource.cache
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.csproj.CoreCompileInputs.cache
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.csproj.CopyComplete
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.exe
+D:\Programation\Project ESEN NOTES\EsenNotes\C#\Notes\Notes\obj\Debug\Notes.pdb
